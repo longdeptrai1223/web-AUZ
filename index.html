@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUZ - Nắm Giữ Tương Lai Tài Chính Ngay Trong Tay Bạn</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="AUZ - Đồng tiền kỹ thuật số miễn phí. Tải ứng dụng và nhận AUZ miễn phí mỗi ngày. Không cần đầu tư ban đầu.">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDUxMiA1MTIiPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjQwIiBmaWxsPSJ1cmwoI2dvbGQpIi8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdvbGQiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZENzAwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Y1OUUwQiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHRleHQgeD0iMjU2IiB5PSIyOTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJJbnRlciwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMjAiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNGRkYiPkE8L3RleHQ+Cjwvc3ZnPg==" alt="AUZ" class="nav-logo-img" />
+                AUZ
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Về AUZ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#how-to" class="nav-link">Cách nhận</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#technology" class="nav-link">Công nghệ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#roadmap" class="nav-link">Lộ trình</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#community" class="nav-link">Cộng đồng</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    AUZ: Nắm Giữ <span class="highlight">Tương Lai Tài Chính</span> Ngay Trong Tay Bạn
+                </h1>
+                <p class="hero-description">
+                    Chào mừng đến với AUZ: Kỷ Nguyên Mới Của Tiền Kỹ Thuật Số Miễn Phí. 
+                    Không cần đầu tư ban đầu - chỉ cần tải ứng dụng và nhận AUZ miễn phí mỗi ngày!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#how-to" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Tải ứng dụng
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i fas="fas fa-info-circle"></i>
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Miễn phí</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Claim hàng ngày</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Phí giao dịch</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+CiAgPGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiByPSIyNDAiIGZpbGw9ImxpbmVhci1ncmFkaWVudCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgPGRlZnM+CiAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ29sZCI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRDcwMCIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Y1OUUwQiIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogIDwvY2lyY2xlPgogIDx0ZXh0IHg9IjI1NiIgeT0iMjkwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iSW50ZXIsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIwIiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjRkZGIj5BPC90ZXh0Pgo8L3N2Zz4=" alt="AUZ Coin" />
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-item item-1">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="floating-item item-2">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="floating-item item-3">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">AUZ Là Gì? Giá Trị Mới Trong Tầm Tay</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro-text">
+                        AUZ là đồng tiền kỹ thuật số cốt lõi của một hệ sinh thái tài chính phi tập trung (DeFi) tiên tiến, 
+                        được thiết kế để mọi người đều có thể tham gia. Thay vì phải mua trên các sàn giao dịch, 
+                        bạn có thể nhận AUZ hàng ngày chỉ bằng cách "claim" (nhận) thông qua ứng dụng di động độc quyền của chúng tôi.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <h3>Hoàn Toàn Miễn Phí</h3>
+                            <p>Không yêu cầu đầu tư ban đầu. Chỉ cần tải ứng dụng và bắt đầu tích lũy AUZ của bạn.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>Phi Tập Trung Hoàn Toàn</h3>
+                            <p>Không có ngân hàng trung ương, không có tổ chức kiểm soát. Bạn là người chủ thực sự của tài sản mình.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Bảo Mật Vượt Trội</h3>
+                            <p>Công nghệ mã hóa tiên tiến và cấu trúc blockchain kiên cố bảo vệ mọi giao dịch và tài sản của bạn.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3>Minh Bạch Tuyệt Đối</h3>
+                            <p>Mọi giao dịch được ghi lại công khai và không thể thay đổi trên sổ cái phân tán, đảm bảo sự tin cậy.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h3>Thân Thiện Với Môi Trường</h3>
+                            <p>AUZ được phát triển với cơ chế đồng thuận tiết kiệm năng lượng, góp phần vào một tương lai bền vững.</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Cộng Đồng Toàn Cầu</h3>
+                            <p>Tham gia vào một cộng đồng lớn mạnh của những người đam mê công nghệ blockchain và DeFi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Section -->
+    <section id="how-to" class="how-to">
+        <div class="container">
+            <h2 class="section-title">Cách Nhận AUZ Của Bạn: Đơn Giản Chỉ Với 3 Bước</h2>
+            <p class="section-subtitle">
+                AUZ được thiết kế để dễ dàng tiếp cận với tất cả mọi người. 
+                Không cần kiến thức chuyên sâu về blockchain hay đầu tư phức tạp.
+            </p>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Tải Ứng Dụng AUZ</h3>
+                        <p>Tìm kiếm "AUZ Network" trên Google Play Store hoặc Apple App Store và tải ứng dụng về điện thoại của bạn.</p>
+                        <div class="step-buttons">
+                            <a href="#" class="btn-download" data-link="google-play">
+                                <i class="fab fa-google-play"></i>
+                                Google Play
+                            </a>
+                            <a href="#" class="btn-download" data-link="app-store">
+                                <i class="fab fa-apple"></i>
+                                App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h3>Đăng Ký Tài Khoản</h3>
+                        <p>Tạo tài khoản miễn phí bằng email hoặc số điện thoại của bạn. Quá trình này nhanh chóng và bảo mật.</p>
+                        <div class="step-features">
+                            <span class="feature-tag">✓ Miễn phí 100%</span>
+                            <span class="feature-tag">✓ Bảo mật cao</span>
+                            <span class="feature-tag">✓ Đăng ký nhanh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>"Claim" AUZ Hàng Ngày</h3>
+                        <p>Mở ứng dụng AUZ mỗi 24 giờ và nhấn nút "Claim" để nhận số lượng AUZ được phân bổ hàng ngày của bạn. Thật đơn giản!</p>
+                        <div class="claim-info">
+                            <div class="claim-timer">
+                                <i class="fas fa-clock"></i>
+                                <span>Claim mỗi 24 giờ</span>
+                            </div>
+                            <div class="claim-amount">
+                                <i class="fas fa-gift"></i>
+                                <span>Miễn phí mỗi ngày</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="early-adopter-notice">
+                <div class="notice-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="notice-content">
+                    <h4>Tham Gia Sớm - Lợi Ích Lớn!</h4>
+                    <p>Càng tham gia sớm, cơ hội tích lũy AUZ của bạn càng lớn! Đừng bỏ lỡ cơ hội trở thành thành viên sáng lập của cộng đồng AUZ.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <h2 class="section-title">Công Nghệ Đằng Sau AUZ: Nền Tảng Vững Chắc</h2>
+            <p class="section-subtitle">
+                AUZ không chỉ là một ứng dụng "claim" miễn phí. Nó được hậu thuẫn bởi một nền tảng công nghệ blockchain mạnh mẽ và sáng tạo, 
+                đảm bảo giá trị thực sự cho những gì bạn tích lũy.
+            </p>
+            <div class="tech-overview">
+                <div class="tech-main">
+                    <h3>AUZ Chain - Blockchain Độc Lập Thế Hệ Mới</h3>
+                    <p>AUZ hoạt động trên AUZ Chain – một blockchain độc lập thế hệ mới, sử dụng cơ chế đồng thuận Proof of Stake (PoS) hiệu suất cao. 
+                    Cơ chế này không chỉ giúp giảm đáng kể mức tiêu thụ năng lượng mà còn đảm bảo tốc độ xử lý giao dịch vượt trội và khả năng mở rộng cho hàng tỷ người dùng.</p>
+                </div>
+            </div>
+            <div class="tech-features">
+                <div class="tech-feature-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h4>Hợp Đồng Thông Minh</h4>
+                    <p>Cho phép tạo ra các ứng dụng phi tập trung (DApps) phức tạp và tự động hóa các thỏa thuận mà không cần bên thứ ba. 
+                    AUZ Chain hỗ trợ đầy đủ khả năng tương thích với EVM (Ethereum Virtual Machine).</p>
+                </div>
+                <div class="tech-feature-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h4>Khả Năng Tương Tác</h4>
+                    <p>Chúng tôi đang phát triển các cầu nối (bridges) để AUZ có thể dễ dàng tương tác và trao đổi giá trị với các blockchain lớn khác 
+                    như Ethereum, Binance Smart Chain và Polygon.</p>
+                </div>
+                <div class="tech-feature-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Bảo Mật Lớp Đa Tầng</h4>
+                    <p>Ngoài bảo mật cấp độ giao thức, AUZ còn tích hợp các giải pháp bảo mật lớp 2 (Layer-2 solutions) để tăng cường tốc độ 
+                    và giảm chi phí cho các giao dịch phức tạp, đồng thời giữ vững tính toàn vẹn của mạng lưới.</p>
+                </div>
+                <div class="tech-feature-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h4>Quản Trị Cộng Đồng (DAO)</h4>
+                    <p>AUZ sẽ phát triển thành một DAO hoàn chỉnh, nơi những người nắm giữ AUZ có quyền đề xuất và biểu quyết về các thay đổi quan trọng 
+                    trong tương lai của dự án, đảm bảo sự phát triển dân chủ và minh bạch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h2 class="section-title">Tầm Nhìn & Lộ Trình Phát Triển: AUZ Vươn Ra Thế Giới</h2>
+            <p class="section-subtitle">
+                Chúng tôi có một lộ trình rõ ràng và tham vọng để biến AUZ không chỉ là một đồng coin miễn phí, 
+                mà còn là một phần không thể thiếu của hệ sinh thái tài chính phi tập trung toàn cầu.
+            </p>
+            <div class="roadmap-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="phase-number">1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Q4/2025 - Q2/2026</div>
+                        <h3>Khởi Nguyên & Hoàn Thiện</h3>
+                        <ul>
+                            <li>Ra mắt Ứng dụng AUZ Network & Cơ chế "Claim"</li>
+                            <li>Xây dựng Cộng đồng AUZ toàn cầu</li>
+                            <li>Ra mắt Mainnet AUZ Chain</li>
+                            <li>Kiểm toán bảo mật toàn diện</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="phase-number">2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Q3/2026 - Q2/2027</div>
+                        <h3>Mở Rộng Hệ Sinh Thái & Ứng Dụng</h3>
+                        <ul>
+                            <li>Triển khai Nền tảng Staking & Yield Farming</li>
+                            <li>Ra mắt các DApp đầu tiên trên AUZ Chain</li>
+                            <li>Niêm yết trên các sàn giao dịch DEX & CEX lớn</li>
+                            <li>Quan hệ đối tác chiến lược</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span class="phase-number">3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Từ Q3/2027 trở đi</div>
+                        <h3>Phổ Cập & Tương Lai Bền Vững</h3>
+                        <ul>
+                            <li>Tích hợp AUZ vào thương mại điện tử & hệ thống thanh toán</li>
+                            <li>Phát triển các giải pháp DeFi thế hệ tiếp theo</li>
+                            <li>Mở rộng sang GameFi & Metaverse</li>
+                            <li>Ra mắt Quỹ Phát Triển AUZ</li>
+                            <li>Chuyển giao hoàn toàn quyền quản trị cho cộng đồng (DAO)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <h2 class="section-title">Ứng Dụng Đa Dạng Của AUZ: Hơn Cả Một Đồng Coin</h2>
+            <p class="section-subtitle">
+                AUZ được tạo ra để trở thành một phần không thể thiếu trong nhiều lĩnh vực, từ tài chính đến giải trí và hơn thế nữa. 
+                Giá trị của AUZ sẽ tăng lên cùng với sự phát triển và ứng dụng rộng rãi của hệ sinh thái.
+            </p>
+            <div class="use-cases-grid">
+                <div class="use-case-item">
+                    <div class="use-case-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h4>Thanh Toán Toàn Cầu</h4>
+                    <p>Sử dụng AUZ để gửi và nhận tiền xuyên biên giới một cách nhanh chóng, an toàn và tiết kiệm chi phí.</p>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Tài Chính Phi Tập Trung (DeFi)</h4>
+                    <p>Tham gia vào các hoạt động cho vay, vay mượn, giao dịch, và cung cấp thanh khoản trên các nền tảng DeFi.</p>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h4>Quản Lý Tài Sản</h4>
+                    <p>Lưu trữ an toàn và quản lý danh mục tài sản kỹ thuật số của bạn với quyền kiểm soát hoàn toàn.</p>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h4>GameFi & NFT</h4>
+                    <p>Trở thành đơn vị tiền tệ chính trong các trò chơi blockchain và nền tảng giao dịch NFT.</p>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h4>Quản Trị Cộng Đồng</h4>
+                    <p>Nắm giữ AUZ để có quyền biểu quyết trong các quyết định quan trọng về sự phát triển của dự án.</p>
+                </div>
+                <div class="use-case-item">
+                    <div class="use-case-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h4>Thanh Toán Micropayments</h4>
+                    <p>Lý tưởng cho các giao dịch nhỏ với chi phí gần như bằng không, mở ra các mô hình kinh doanh mới.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2 class="section-title">Tham Gia Cộng Đồng AUZ: Cùng Nhau Xây Dựng Tương Lai</h2>
+            <p class="section-subtitle">
+                Cộng đồng là trái tim và linh hồn của AUZ. Chúng tôi tin vào sức mạnh của sự hợp tác và sự đóng góp của mọi thành viên. 
+                Hãy tham gia cùng chúng tôi để kết nối, thảo luận, học hỏi và định hình tương lai của tài chính phi tập trung.
+            </p>
+            <div class="community-links">
+                <a href="#" class="community-link telegram" data-link="telegram">
+                    <div class="community-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <div class="community-info">
+                        <h4>Telegram</h4>
+                        <p>Kênh chính thức cho tin tức nhanh và thảo luận cộng đồng</p>
+                    </div>
+                </a>
+                <a href="#" class="community-link discord" data-link="discord">
+                    <div class="community-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="community-info">
+                        <h4>Discord</h4>
+                        <p>Trò chuyện trực tiếp với cộng đồng và đội ngũ phát triển</p>
+                    </div>
+                </a>
+                <a href="#" class="community-link twitter" data-link="twitter">
+                    <div class="community-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="community-info">
+                        <h4>Twitter (X)</h4>
+                        <p>@AUZOfficial - Cập nhật tin tức nhanh nhất</p>
+                    </div>
+                </a>
+                <a href="#" class="community-link reddit" data-link="reddit">
+                    <div class="community-icon">
+                        <i class="fab fa-reddit"></i>
+                    </div>
+                    <div class="community-info">
+                        <h4>Reddit</h4>
+                        <p>Thảo luận chuyên sâu và chia sẻ kiến thức</p>
+                    </div>
+                </a>
+                <a href="#" class="community-link medium" data-link="medium">
+                    <div class="community-icon">
+                        <i class="fab fa-medium"></i>
+                    </div>
+                    <div class="community-info">
+                        <h4>Blog/Medium</h4>
+                        <p>Các bài viết chi tiết và cập nhật dự án</p>
+                    </div>
+                </a>
+                <a href="#" class="community-link youtube" data-link="youtube">
+                    <div class="community-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="community-info">
+                        <h4>YouTube</h4>
+                        <p>Video hướng dẫn và giới thiệu</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download App Section -->
+    <section id="download" class="download-app">
+        <div class="container">
+            <div class="download-content">
+                <h2>Bắt Đầu Hành Trình AUZ Của Bạn Ngay Hôm Nay!</h2>
+                <p>Đừng chờ đợi! Tải ứng dụng AUZ miễn phí và bắt đầu tích lũy tài sản kỹ thuật số của bạn ngay hôm nay. 
+                Tương lai tài chính đang nằm trong tầm tay bạn.</p>
+                <div class="download-buttons">
+                    <a href="#" class="download-btn google-play" data-link="google-play">
+                        <div class="btn-icon">
+                            <i class="fab fa-google-play"></i>
+                        </div>
+                        <div class="btn-text">
+                            <span class="small">Tải trên</span>
+                            <span class="large">Google Play</span>
+                        </div>
+                    </a>
+                    <a href="#" class="download-btn app-store" data-link="app-store">
+                        <div class="btn-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="btn-text">
+                            <span class="small">Tải trên</span>
+                            <span class="large">App Store</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                                    <div class="footer-logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDUxMiA1MTIiPgogIDxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjQwIiBmaWxsPSJ1cmwoI2dvbGQpIi8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdvbGQiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZENzAwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Y1OUUwQiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHRleHQgeD0iMjU2IiB5PSIyOTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJJbnRlciwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMjAiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNGRkYiPkE8L3RleHQ+Cjwvc3ZnPg==" alt="AUZ" class="footer-logo-img" />
+                    <span>AUZ</span>
+                </div>
+                    <p class="footer-tagline">Nắm Giữ Tương Lai Tài Chính Miễn Phí</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Liên Kết Nhanh</h4>
+                        <ul>
+                            <li><a href="#home">Trang chủ</a></li>
+                            <li><a href="#about">Về AUZ</a></li>
+                            <li><a href="#how-to">Cách nhận</a></li>
+                            <li><a href="#roadmap">Lộ trình</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Cộng Đồng</h4>
+                        <ul>
+                            <li><a href="#" data-link="telegram">Telegram</a></li>
+                            <li><a href="#" data-link="discord">Discord</a></li>
+                            <li><a href="#" data-link="twitter">Twitter</a></li>
+                            <li><a href="#" data-link="reddit">Reddit</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Pháp Lý</h4>
+                        <ul>
+                            <li><a href="#" data-link="privacy">Chính sách bảo mật</a></li>
+                            <li><a href="#" data-link="terms">Điều khoản dịch vụ</a></li>
+                            <li><a href="#" data-link="cookies">Chính sách cookie</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Liên Hệ</h4>
+                        <ul>
+                            <li><a href="mailto:info@auzcoin.com" data-link="email">info@auzcoin.com</a></li>
+                            <li><a href="#" data-link="technicalSupport">Hỗ trợ kỹ thuật</a></li>
+                            <li><a href="#" data-link="bugReport">Báo cáo lỗi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text">
+                    <p>&copy; 2025 AUZ. Tất cả các quyền được bảo lưu. Được tạo với ❤️ cho cộng đồng crypto.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" data-link="telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="#" class="social-link" data-link="discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#" class="social-link" data-link="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" data-link="reddit">
+                        <i class="fab fa-reddit"></i>
+                    </a>
+                    <a href="#" class="social-link" data-link="medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                    <a href="#" class="social-link" data-link="youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="links-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
