@@ -18,8 +18,8 @@ const AUZ_LINKS = {
         twitter: "https://twitter.com/AUZOfficial", // ⚠️ CẦN CẬP NHẬT
         reddit: "https://reddit.com/r/AUZCoin", // ⚠️ CẦN CẬP NHẬT
         medium: "https://medium.com/@AUZOfficial", // ⚠️ CẦN CẬP NHẬT
-        youtube: "https://youtube.com/@AUZOfficial", // ⚠️ CẦN CẬP NHẬT
-        facebook: "https://facebook.com/AUZOfficial", // ⚠️ CẦN CẬP NHẬT
+        youtube: "http://www.youtube.com/@AUZ-g2s", // ⚠️ CẦN CẬP NHẬT
+        facebook: "https://www.facebook.com/share/g/153Ns2PoVJ/", // ⚠️ CẦN CẬP NHẬT
         linkedin: "https://linkedin.com/company/auz-network" // ⚠️ CẦN CẬP NHẬT
     },
 
@@ -34,9 +34,9 @@ const AUZ_LINKS = {
 
     // Support & Contact Links
     support: {
-        email: "mailto:info@auzcoin.com", // ⚠️ CẦN CẬP NHẬT EMAIL THẬT
-        supportEmail: "mailto:support@auzcoin.com", // ⚠️ CẦN CẬP NHẬT EMAIL THẬT
-        technicalSupport: "https://support.auzcoin.com", // ⚠️ CẦN CẬP NHẬT
+        email: "longgat933@gmail.com", // ⚠️ CẦN CẬP NHẬT EMAIL THẬT
+        supportEmail: "auzsup00000@gmail.com", // ⚠️ CẦN CẬP NHẬT EMAIL THẬT
+        technicalSupport: "auzsup00000@gmail.", // ⚠️ CẦN CẬP NHẬT
         bugReport: "https://github.com/AUZNetwork/issues" // ⚠️ CẦN CẬP NHẬT
     },
 
