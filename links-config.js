@@ -25,11 +25,11 @@ const AUZ_LINKS = {
 
     // Official Website Links
     website: {
-        main: "https://auzcoin.com", // ⚠️ CẦN CẬP NHẬT
-        blog: "https://blog.auzcoin.com", // ⚠️ CẦN CẬP NHẬT
-        docs: "https://docs.auzcoin.com", // ⚠️ CẦN CẬP NHẬT
-        whitepaper: "https://auzcoin.com/whitepaper.pdf", // ⚠️ CẦN CẬP NHẬT
-        explorer: "https://explorer.auzchain.com" // ⚠️ CẦN CẬP NHẬT
+        main: "https://longdeptrai1223.github.io/web-AUZ/", // ⚠️ CẦN CẬP NHẬT
+        blog: "https://longdeptrai1223.github.io/web-AUZ/m", // ⚠️ CẦN CẬP NHẬT
+        docs: "https://longdeptrai1223.github.io/web-AUZ/", // ⚠️ CẦN CẬP NHẬT
+        whitepaper: "https://longdeptrai1223.github.io/web-AUZ/", // ⚠️ CẦN CẬP NHẬT
+        explorer: "https://longdeptrai1223.github.io/web-AUZ/" // ⚠️ CẦN CẬP NHẬT
     },
 
     // Support & Contact Links
